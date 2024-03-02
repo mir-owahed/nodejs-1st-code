@@ -1,0 +1,127 @@
+    1  whoami
+    2  sudo apt update
+    3  python -V
+    4  python -version
+    5  python --version
+    6  sudo update
+    7  sudo su
+    8  uname -a
+    9  sudo apt-get install wget gpg
+   10  visudo
+   11  sudo visudo
+   12  su
+   13  sudo update
+   14  sudo usermod -a mir admin
+   15  which mir
+   16  whoami
+   17  sudo su
+   18  sudo apt update
+   19  sudo apt-get install wget gpg
+   20  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+   21  sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+   22  sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+   23  rm -f packages.microsoft.gpg
+   24  sudo apt install apt-transport-https
+   25  sudo apt update
+   26  sudo apt install code
+   27  code .
+   28  node -v
+   29  node -V
+   30  ls
+   31  cd Downloads/
+   32  ls
+   33  tar xf node-v20.11.1-linux-x64.tar.xz 
+   34  ls
+   35  mv node-v20.11.1-linux-x64 ~/Documents/
+   36  cd
+   37  ls
+   38  cd Documents/
+   39  ls
+   40  cd node-v20.11.1-linux-x64/
+   41  ls
+   42  node -v
+   43  cd bin/
+   44  node -v
+   45  ls
+   46  node -v
+   47  npm -v
+   48  sudo apt purge nodejs
+   49  apt-cache policy nodejs
+   50  cd
+   51  cd Downloads/
+   52  ls
+   53  tar xf node-v20.11.1-linux-x64.tar.xz 
+   54  ls
+   55  cd node-v20.11.1-linux-x64/
+   56  ls
+   57  cd ..
+   58  ls
+   59  mv node-v20.11.1-linux-x64 ~/nodejs
+   60  cd
+   61  cd nodejs/
+   62  ls
+   63  cd bin/
+   64  ls
+   65  node -v
+   66  ./node -v
+   67  ./npm -v
+   68  npm -v
+   69  cd
+   70  ls -la
+   71  nano .bashrc 
+   72  ls
+   73  cd nodejs/
+   74  ls
+   75  cd bin/
+   76  pwd
+   77  node -v
+   78  npm -v
+   79  history > nodejs_install_cmd.txt
+   80  nano nodejs_install_cmd.txt 
+   81  sudo apt update
+   82  java -version
+   83  apt install openjdk-17-jre-headless
+   84  sudo apt install openjdk-17-jre-headless
+   85  java -version
+   86  sudo wget https://updates.jenkins.io/download/war/2.387.3/jenkins.war
+   87  ls
+   88  sudo wget https://updates.jenkins.io/download/war/2.387.3/jenkins.war
+   89  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+   90  apt  install curl
+   91  sudo apt  install curl
+   92  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+   93  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+   94  sudo apt-get update -y 
+   95  sudo apt-get install jenkins -y
+   96  sudo wget -O /usr/share/keyrings/jenkins-keyring.asc   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+   97  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+   98  sudo apt-get update
+   99  sudo apt-get install jenkins
+  100  cat /var/lib/jenkins/secrets/initialAdminPassword
+  101  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  102  npm init
+  103  node app.js
+  104  npm install
+  105  npm install express --no-save
+  106  npm install
+  107  node app.js
+  108  npm install express
+  109  node app.js
+  110  git -version
+  111  apt install git
+  112  sudo apt install git
+  113  git -version
+  114  git -v
+  115  git -V
+  116  git -version
+  117  git --version
+  118  git clone https://github.com/mir-owahed/nodejs-1st-code
+  119  cd nodejs-1st-code/
+  120  npm init
+  121  npm install express
+  122  node app.js 
+  123  git add .
+  124  git commit -am "nodejs hello world program"
+  125  git status
+  126  git push
+  127  history > commands.txt
