@@ -14,7 +14,16 @@ node -v # should print `v20.14.0`
 # verifies the right NPM version is in the environment
 npm -v # should print `10.7.0`
 ```
-
+### Run the code
+```
+npm init
+node app.js
+npm install
+npm install express --no-save
+npm install
+node app.js
+npm install express
+```
 
 
 ### Install & Update Script
