@@ -49,5 +49,6 @@ To install npm
 nvm install-latest-npm
 ```
 Reference:
-1. <https://github.com/nvm-sh/nvm?tab=readme-ov-file#usage>
+1. <https://nodejs.org/en/download/package-manager/>
+2. <https://github.com/nvm-sh/nvm?tab=readme-ov-file#usage>
 
