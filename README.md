@@ -3,6 +3,8 @@
 # installs nvm (Node Version Manager)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
+# Close the terminal and again open terminal
+
 # download and install Node.js (you may need to restart the terminal)
 nvm install 20
 
